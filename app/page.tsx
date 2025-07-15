@@ -1,8 +1,29 @@
 'use client';
+import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <>
+      <Head>
+        <title>Børn med Diagnoser Fagbog | Autisme Inklusion Folkeskolen | CDT</title>
+        <meta name="description" content="Hjælp børn med diagnoser som autisme få bedre skoledag. Levende interaktiv fagbog med AI-rollespil og quizmotor. Forstå børn med diagnoser i folkeskolen." />
+        <meta name="keywords" content="børn med diagnoser, autisme diagnoser, børn med diagnoser i folkeskolen, inklusion folkeskolen, inklusion betydning, interaktiv fagbog, levende fagbog, AI rollespil" />
+        <meta name="author" content="CDT Levende Øko Brochure" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://interaktiv-cdtfagbog.vercel.app" />
+        
+        <meta property="og:title" content="Hjælp Børn med Diagnoser | CDT Interaktiv Fagbog" />
+        <meta property="og:description" content="Levende fagbog der hjælper børn med autisme og andre diagnoser få en bedre skoledag. AI-drevet læring og rollespil." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://interaktiv-cdtfagbog.vercel.app" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hjælp Børn med Diagnoser | CDT Fagbog" />
+        <meta name="twitter:description" content="Interaktiv fagbog til støtte af børn med autisme og diagnoser i folkeskolen." />
+      </Head>
+
+      <div className="min-h-screen bg-gray-900 text-white">
+        {/* Resten af din kode her */}
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
         <div className="container mx-auto px-4 py-4">
@@ -138,5 +159,6 @@ export default function Home() {
         </div>
       </footer>
     </div>
+    </>
   );
 }

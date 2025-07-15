@@ -99,14 +99,41 @@ export default function Home() {
             Klar til at revolutionere din tilgang?
           </h2>
           <p className="text-xl text-emerald-100 mb-8 max-w-3xl mx-auto">
-  Test vores interaktive fagbog der opdateres månedligt med nyeste viden og real-life cases fra børn med diagnoser.
-</p>
+            Test vores interaktive fagbog der opdateres månedligt med nyeste viden og real-life cases fra børn med diagnoser.
+          </p>
           <a href="https://cdt-website.vercel.app/platform" 
              className="inline-block bg-white text-emerald-600 px-10 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-xl border-2 border-emerald-200">
             🌟 KLIK HER - Test CDT Interaktive Fagbog
           </a>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="py-12 bg-gray-900 border-t border-gray-800">
+        <div className="container mx-auto px-4 text-center">
+          <div className="text-2xl font-bold text-emerald-500 mb-4">CDT Levende Øko Brochure</div>
+          <p className="text-gray-400 mb-6">
+            Revolutionerer specialpædagogik gennem børnenes øjne 🌱
+          </p>
+          <div className="flex flex-wrap justify-center gap-6 text-sm">
+            <a href="https://cdt-website.vercel.app/kontakt" 
+               className="text-emerald-400 hover:text-emerald-300 transition-colors">
+              📧 Kontakt Os
+            </a>
+            <a href="https://cdt-website.vercel.app/features" 
+               className="text-emerald-400 hover:text-emerald-300 transition-colors">
+              🌟 Se Features
+            </a>
+            <a href="https://cdt-website.vercel.app/kontakt?plan=pro" 
+               className="text-emerald-400 hover:text-emerald-300 transition-colors">
+              🚀 Start Prøveperiode
+            </a>
+          </div>
+          <div className="mt-6 text-xs text-gray-500">
+            © 2025 CDT Levende Øko Brochure - Digital brochure der beskytter naturen
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

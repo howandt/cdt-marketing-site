@@ -23,11 +23,11 @@ export default function Home() {
             <span className="text-gray-300 text-3xl md:text-4xl">med AI-drevet fagbog</span>
           </h1>
           
-          <p className="text-xl text-gray-300 mb-12 max-w-4xl mx-auto">
-            <strong>Lær at tale til børn med diagnoser</strong> gennem vores revolutionære fagbog med 
-            <span className="text-emerald-400"> AI-rollespilmotor, quizmotor og Coach Heidi</span>. 
-            Giv børnene den strukturerede og stabile hverdag de fortjener.
-          </p>
+          <p className="text-xl text-emerald-100 mb-8 max-w-3xl mx-auto">
+  Test vores interaktive fagbog med nyeste viden om <strong>autisme diagnoser</strong>. 
+  Hjælp <span className="text-emerald-200">børn med diagnoser i folkeskolen</span>{' '}
+  at få en bedre skoledag gennem forståelse og støtte.
+</p>
           
           <div className="space-y-4">
             <a href="https://cdt-website.vercel.app/platform" 
@@ -47,9 +47,10 @@ export default function Home() {
               🤖 AI-Drevne Motorer
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Vores fagbog er levende takket være avancerede AI-motorer. 
-              Du taler til fagbogen - den lærer dig at tale til børnene.
-            </p>
+  Støt <strong>inklusion i folkeskolen</strong> med AI-motorer der lærer dig at arbejde med 
+  <span className="text-emerald-400">autisme diagnoser</span> og andre udfordringer. 
+  Forstå <strong>inklusion betydning</strong> for børn med diagnoser i folkeskolen.
+</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -99,8 +100,10 @@ export default function Home() {
             Klar til at revolutionere din tilgang?
           </h2>
           <p className="text-xl text-emerald-100 mb-8 max-w-3xl mx-auto">
-            Test vores interaktive fagbog der opdateres månedligt med nyeste viden og real-life cases fra børn med diagnoser.
-          </p>
+  Test vores interaktive fagbog med nyeste viden om <strong>autisme diagnoser</strong> og 
+  <span className="text-emerald-200">inklusion i folkeskolen</span>. 
+  Hjælp børn med diagnoser gennem forståelse af <strong>inklusion betydning</strong>.
+</p>
           <a href="https://cdt-website.vercel.app/platform" 
              className="inline-block bg-white text-emerald-600 px-10 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-xl border-2 border-emerald-200">
             🌟 KLIK HER - Test CDT Interaktive Fagbog
@@ -113,8 +116,8 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <div className="text-2xl font-bold text-emerald-500 mb-4">CDT Levende Øko Brochure</div>
           <p className="text-gray-400 mb-6">
-            Revolutionerer specialpædagogik gennem børnenes øjne 🌱
-          </p>
+  Hjælper børn med diagnoser få en bedre skoledag 🌱
+</p>
           <div className="flex flex-wrap justify-center gap-6 text-sm">
             <a href="https://cdt-website.vercel.app/kontakt" 
                className="text-emerald-400 hover:text-emerald-300 transition-colors">

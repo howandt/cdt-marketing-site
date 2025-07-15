@@ -153,6 +153,38 @@ export default function Home() {
               🚀 Start Prøveperiode
             </a>
           </div>
+          
+          {/* Sociale Medier - TILFØJ DENNE SEKTION */}
+          <div className="mt-8">
+            <h3 className="text-lg font-semibold text-emerald-400 mb-4">Følg Os</h3>
+            <div className="flex flex-wrap justify-center gap-4 text-sm">
+              <a href="https://www.youtube.com/@BarnetsSprog" 
+                 target="_blank" rel="noopener noreferrer"
+                 className="text-gray-400 hover:text-red-400 transition-colors">
+                📺 YouTube - Barnets Sprog
+              </a>
+              <a href="https://www.facebook.com/groups/adhdangstihverdagen" 
+                 target="_blank" rel="noopener noreferrer"
+                 className="text-gray-400 hover:text-blue-400 transition-colors">
+                👥 ADHD & Angst i Hverdagen
+              </a>
+              <a href="https://www.facebook.com/groups/childrendiagnosistutor" 
+                 target="_blank" rel="noopener noreferrer"
+                 className="text-gray-400 hover:text-blue-400 transition-colors">
+                👥 Children Diagnosis Tutor
+              </a>
+              <a href="https://cdaisystems.com" 
+                 target="_blank" rel="noopener noreferrer"
+                 className="text-gray-400 hover:text-emerald-400 transition-colors">
+                🌐 CDAsystems.com
+              </a>
+              <a href="https://www.facebook.com/biofeedbacktorshavn/" 
+                 target="_blank" rel="noopener noreferrer"
+                 className="text-gray-400 hover:text-blue-400 transition-colors">
+                🧠 Biofeedback Torshavn
+              </a>
+            </div>
+          </div>
           <div className="mt-6 text-xs text-gray-500">
             © 2025 CDT Levende Øko Brochure - Digital brochure der beskytter naturen
           </div>

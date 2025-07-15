@@ -59,9 +59,10 @@ export default function Home() {
               <p className="text-gray-300 mb-6">
                 Træn forælder-barn og lærer-barn samtaler. Oplev REVERSE perspektiv - hvad tænker barnet?
               </p>
-              <button className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-semibold w-full hover:scale-105 transform transition-all">
-                ➤ KLIK - Test Rollespil Nu
-              </button>
+              <a href="https://cdt-website.vercel.app/demo/test?role=parent" 
+   className="block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-semibold w-full hover:scale-105 transform transition-all text-center">
+  ➤ KLIK - Test Rollespil Nu
+</a>
             </div>
 
             <div className="bg-gray-900 rounded-xl p-8 border-2 border-blue-500">
@@ -70,9 +71,10 @@ export default function Home() {
               <p className="text-gray-300 mb-6">
                 Skriv dit take på cases fra biblioteket. Få optimeret feedback og lær bedste praksis.
               </p>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold w-full hover:scale-105 transform transition-all">
-                ➤ KLIK - Prøv Quiz Nu
-              </button>
+              <a href="https://cdt-website.vercel.app/quiz" 
+   className="block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold w-full hover:scale-105 transform transition-all text-center">
+  ➤ KLIK - Prøv Quiz Nu
+</a>
             </div>
 
             <div className="bg-gray-900 rounded-xl p-8 border-2 border-purple-500">
@@ -81,9 +83,10 @@ export default function Home() {
               <p className="text-gray-300 mb-6">
                 Din personlige AI-guide. Tal til fagbogen - den svarer tilbage med løsninger!
               </p>
-              <button className="bg-purple-600 hover:purple-700 text-white px-6 py-3 rounded-lg font-semibold w-full hover:scale-105 transform transition-all">
-                ➤ KLIK - Tal Med Heidi
-              </button>
+              <a href="https://cdt-website.vercel.app/demo/test?role=teacher" 
+   className="block bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold w-full hover:scale-105 transform transition-all text-center">
+  ➤ KLIK - Tal Med Heidi
+</a>
             </div>
           </div>
         </div>

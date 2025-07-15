@@ -25,14 +25,15 @@ export default function Home() {
           
           <p className="text-xl text-gray-300 mb-12 max-w-4xl mx-auto">
             <strong>Lær at tale til børn med diagnoser</strong> gennem vores revolutionære fagbog med 
-            <span className="text-emerald-400">AI-rollespilmotor, quizmotor og Coach Heidi</span>. 
+            <span className="text-emerald-400"> AI-rollespilmotor, quizmotor og Coach Heidi</span>. 
             Giv børnene den strukturerede og stabile hverdag de fortjener.
           </p>
           
           <div className="space-y-4">
-            <button className="bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-12 py-5 rounded-xl font-bold text-xl hover:scale-105 transform transition-all shadow-2xl border-2 border-emerald-400">
-              👆 KLIK HER - Oplev Den Levende Fagbog Nu
-            </button>
+            <a href="https://cdt-website.vercel.app/platform" 
+   className="inline-block bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-12 py-5 rounded-xl font-bold text-xl hover:scale-105 transform transition-all shadow-2xl border-2 border-emerald-400">
+  👆 KLIK HER - Oplev Den Levende Fagbog Nu
+</a>
             <p className="text-gray-400">Tal til fagbogen • Lyt til svar • Se børns tanker</p>
           </div>
         </div>
@@ -95,11 +96,11 @@ export default function Home() {
             Klar til at revolutionere din tilgang?
           </h2>
           <p className="text-xl text-emerald-100 mb-8 max-w-3xl mx-auto">
-            Åbn den levende fagbog og oplev fremtiden for specialpædagogik med AI-teknologi.
-          </p>
+  Test vores interaktive fagbog der opdateres månedligt med nyeste viden og real-life cases fra børn med diagnoser.
+</p>
           <a href="https://cdt-website.vercel.app/platform" 
              className="inline-block bg-white text-emerald-600 px-10 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-xl border-2 border-emerald-200">
-            🌟 KLIK HER - Åbn CDT Platform Nu
+            🌟 KLIK HER - Test CDT Interaktive Fagbog
           </a>
         </div>
       </section>

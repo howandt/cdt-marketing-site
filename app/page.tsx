@@ -20,6 +20,19 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Hjælp Børn med Diagnoser | CDT Fagbog" />
         <meta name="twitter:description" content="Interaktiv fagbog til støtte af børn med autisme og diagnoser i folkeskolen." />
+
+        <meta name="twitter:description" content="Interaktiv fagbog til støtte af børn med autisme og diagnoser i folkeskolen." />
+        
+        {/* Google Analytics - TILFØJ DENNE SEKTION */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y4L5PN0G83"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Y4L5PN0G83');
+          `
+        }} />
       </Head>
 
       <div className="min-h-screen bg-gray-900 text-white">
